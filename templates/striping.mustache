@@ -10,7 +10,7 @@
 		{{#tests?}}
 		<ul>
 			{{#tests}}
-			<li class="{{class}}"><strong>{{object.id}} (class {{class}}):</strong> ({{object.name}}:{{object.value}})</li>
+			<li class="{{class}}"><strong>{{#object}}{{id}}{{/object}} (class {{class}}):</strong> ({{#object}}{{name}}:{{value}}{{/object}})</li>
 			{{/tests}} 
 		</ul>
 		{{/tests?}}
