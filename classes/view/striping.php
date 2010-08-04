@@ -2,8 +2,6 @@
 
 class View_Striping extends Kostache
 {
-	protected $_pragmas = array(Kostache::PRAGMA_DOT_NOTATION => TRUE);
-
 	public $title = 'Testing';
 
 	public function things()
